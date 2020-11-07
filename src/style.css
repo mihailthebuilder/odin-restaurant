@@ -1,0 +1,35 @@
+body {
+  color: #36494E; 
+  background-color: #96ADC8;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 5rem; 
+}
+
+#hero {
+  background-color: #D7FFAB;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background-color: #D89D6A;
+  font-weight: bold;
+}
+
+#menu {
+  background-color: #FCFF6C;
+}
+
+#menu>div {
+  display: grid;
+}
