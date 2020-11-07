@@ -4304,3 +4304,11 @@ node_modules/util-deprecate/LICENSE
 node_modules/util-deprecate/node.js
 node_modules/util-deprecate/package.json
 node_modules/util-deprecate/README.md
+node_modules/file-loader/CHANGELOG.md
+node_modules/file-loader/LICENSE
+node_modules/file-loader/package.json
+node_modules/file-loader/README.md
+node_modules/file-loader/dist/cjs.js
+node_modules/file-loader/dist/index.js
+node_modules/file-loader/dist/options.json
+node_modules/file-loader/dist/utils.js
