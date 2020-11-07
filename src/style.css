@@ -14,11 +14,14 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10rem 5rem; 
+  padding-left: 3rem; 
+  padding-right: 3rem;
 }
 
 #hero {
   background-color: #D7FFAB;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 #hero>h1 {
@@ -34,9 +37,13 @@ button {
 }
 
 #menu {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #FCFF6C;
 }
 
 #menu>div {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
 }
