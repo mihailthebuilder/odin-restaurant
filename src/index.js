@@ -1,6 +1,7 @@
 import './css/style.css'
 import {pageLoad} from './js/page-load.js'
 import {menuLoad} from './js/menu.js'
+import {contactLoad} from './js/contact.js'
 
 pageLoad();
 
@@ -20,7 +21,7 @@ pageLoad();
         menuLoad();
         break;
       default:
-        menuLoad();
+        contactLoad();
     }
   })
 });

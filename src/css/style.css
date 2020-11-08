@@ -111,3 +111,9 @@ button {
   flex-direction: row;
   justify-content: center;
 }
+
+#contact {
+  background: #FCFF6C;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
