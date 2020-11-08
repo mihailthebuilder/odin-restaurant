@@ -1,3 +1,7 @@
+import PizzaSrc from './img/pizza.jpeg';
+import PastaSrc from './img/pasta.jpg';
+import LasagnaSrc from './img/lasagna.jpg';
+
 const pageLoad = () => {
   
   let container = document.getElementById("#content");
@@ -41,9 +45,20 @@ const pageLoad = () => {
     </div>`
 
   //TOP / other participants are just putting images in dist; I'm going to put them into
-  
-  menu.querySelector("#img1");
+  const PizzaImg = new Image();
+  PizzaImg.src = PizzaSrc;
+  menu.querySelector("img-pizza").appendChild(PizzaImg);
 
+  const PastaImg = new Image();
+  PastaImg.src = PastaSrc;
+  menu.querySelector('img-pasta').appendChild(PastaImg);
+
+  const LasagnaImg = new Image();
+  LasagnaImg.src = LasagnaSrc;
+  menu.querySelector('img-lasaga').appendChild(LasagnaImg);
+
+  main.appendChild(menu);
+  container.appendChild(main);
 }
 
 export {pageLoad}
