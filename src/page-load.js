@@ -22,7 +22,8 @@ const pageLoad = () => {
 
   let menu = document.createElement('section');
   menu.id = 'menu';
-  menu.innerHTML = `<h1>Our Menu</h1>
+  menu.insertAdjacentHTML('beforeend', 
+  `<h1>Our Menu</h1>
     <div id="menu-options">
       <div>
         <h2>Pizza</h2>
@@ -42,23 +43,23 @@ const pageLoad = () => {
       </div>
       <div id="img-lasagna">
       </div>
-    </div>`
+    </div>`);
+    main.appendChild(menu);
+    container.appendChild(main);
 
   //TOP / other participants are just putting images in dist; I'm going to put them into
   const PizzaImg = new Image();
   PizzaImg.src = PizzaSrc;
-  menu.querySelector("img-pizza").appendChild(PizzaImg);
+  document.getElementById("img-pizza").appendChild(PizzaImg);
 
   const PastaImg = new Image();
   PastaImg.src = PastaSrc;
-  menu.querySelector('img-pasta').appendChild(PastaImg);
+  document.getElementById('img-pasta').appendChild(PastaImg);
 
   const LasagnaImg = new Image();
   LasagnaImg.src = LasagnaSrc;
-  menu.querySelector('img-lasaga').appendChild(LasagnaImg);
+  document.getElementById('img-lasagna').appendChild(LasagnaImg);
 
-  main.appendChild(menu);
-  container.appendChild(main);
 }
 
 export {pageLoad}
