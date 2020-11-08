@@ -11,6 +11,11 @@ const pageLoad = () => {
     </section>
   
     <section id="intro">
+      <h2>Why we're amazing</h2>
+      <div id="features">
+        <div id="chefs">
+        </div>
+      </div>
     </section>
   `);
 }
