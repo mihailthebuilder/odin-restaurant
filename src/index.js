@@ -4,3 +4,23 @@ import {menuLoad} from './js/menu.js'
 
 pageLoad();
 
+[...document.getElementsByClassName('link')].forEach(element => {
+  element.addEventListener('click', event=>{
+    document.getElementById('content').innerHTML = '';
+
+    [...document.getElementsByClassName('link')].forEach(element => {element.className = 'link'});
+    
+    element.classList.add('selected');
+
+    switch(element.getAttribute('linkTo')) {
+      case 'about':
+        pageLoad();
+        break;
+      case 'menu':
+        menuLoad();
+        break;
+      default:
+        menuLoad();
+    }
+  })
+});
