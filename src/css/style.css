@@ -16,7 +16,27 @@ nav>ul {
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  justify-items: stretch;
+  background: #D89D6A;
+}
+
+li * {
+  display: block;
+}
+
+.selected {
+  background: #A7E8BD;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li span {
+  text-align: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 section {
