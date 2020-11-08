@@ -4,7 +4,7 @@ import LasagnaSrc from './img/lasagna.jpg';
 
 const pageLoad = () => {
   
-  let container = document.getElementById("#content");
+  let container = document.getElementById("content");
 
   //add header div
   let header = document.createElement("header");
