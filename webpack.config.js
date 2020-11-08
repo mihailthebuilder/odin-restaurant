@@ -22,6 +22,10 @@ module.exports = {
           'file-loader',
         ],
       },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader'
+      }
     ],
   },
 };
