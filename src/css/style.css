@@ -9,6 +9,16 @@ h1 {
   text-align: center;
 }
 
+nav>ul {
+  font-size: 1.4rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
 section {
   display: flex;
   flex-direction: column;
