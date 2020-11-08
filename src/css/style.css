@@ -64,3 +64,20 @@ button {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+#features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 4rem;
+  margin-top: 4rem;
+}
+
+#features img {
+  height: 10rem;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
