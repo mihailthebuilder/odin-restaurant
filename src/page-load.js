@@ -24,9 +24,9 @@ const pageLoad = () => {
         <h2>Pizza</h2>
         <p>This pizza is the best pizza on the planet. It's made by Nordic people, which is why it's so amazing</p>
       </div>
-      <div id="img1">
+      <div id="img-pizza">
       </div>
-      <div id="img2">
+      <div id="img-pasta">
       </div>
       <div>
         <h2>Pasta</h2>
@@ -36,7 +36,7 @@ const pageLoad = () => {
         <h2>Lasagna</h2>
         <p>This lasagna is the best lasagna on the planet. It's made by Nordic people, which is why it's so amazing</p>
       </div>
-      <div id="img3">
+      <div id="img-lasagna">
       </div>
     </div>`
 
