@@ -1,6 +1,6 @@
-import PizzaSrc from '../img/pizza.jpeg';
-import PastaSrc from '../img/pasta.jpg';
-import LasagnaSrc from '../img/lasagna.jpg';
+import PizzaSrc from '../assets/pizza.jpeg';
+import PastaSrc from '../assets/pasta.jpg';
+import LasagnaSrc from '../assets/lasagna.jpg';
 
 const menuLoad = () => {
 
