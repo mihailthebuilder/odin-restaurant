@@ -25,7 +25,7 @@ const pageLoad = () => {
   menu.insertAdjacentHTML('beforeend', 
   `<h1>Our Menu</h1>
     <div id="menu-options">
-      <div>
+      <div class="text-img">
         <h2>Pizza</h2>
         <p>This pizza is the best pizza on the planet. It's made by Nordic people, which is why it's so amazing</p>
       </div>
@@ -33,11 +33,11 @@ const pageLoad = () => {
       </div>
       <div id="img-pasta">
       </div>
-      <div>
+      <div class="text-img">
         <h2>Pasta</h2>
         <p>This pasta is the best pasta on the planet. It's made by Nordic people, which is why it's so amazing</p>
       </div>
-      <div>
+      <div class="text-img">
         <h2>Lasagna</h2>
         <p>This lasagna is the best lasagna on the planet. It's made by Nordic people, which is why it's so amazing</p>
       </div>
