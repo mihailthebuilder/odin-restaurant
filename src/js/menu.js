@@ -1,7 +1,7 @@
-import html from '../html/menu.html'
+import html from "../html/menu.html";
 
 const menuLoad = () => {
-  document.getElementById('content').insertAdjacentHTML('beforeend',html);
+  document.getElementById("content").insertAdjacentHTML("beforeend", html);
 };
 
-export {menuLoad}
+export { menuLoad };

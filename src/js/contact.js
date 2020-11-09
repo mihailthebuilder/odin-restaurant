@@ -1,7 +1,7 @@
-import html from '../html/contact.html'
+import html from "../html/contact.html";
 
 const contactLoad = () => {
-  document.getElementById('content').insertAdjacentHTML('beforeend',html);
+  document.getElementById("content").insertAdjacentHTML("beforeend", html);
 };
 
-export {contactLoad}
+export { contactLoad };

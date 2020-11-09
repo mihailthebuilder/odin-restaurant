@@ -1,6 +1,6 @@
 body {
-  color: #36494E; 
-  background-color: #96ADC8;
+  color: #36494e;
+  background-color: #96adc8;
   margin: 0;
   padding: 0;
 }
@@ -9,7 +9,7 @@ h1 {
   text-align: center;
 }
 
-nav>ul {
+nav > ul {
   font-size: 1.4rem;
   list-style-type: none;
   margin: 0;
@@ -17,7 +17,7 @@ nav>ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: stretch;
-  background: #D89D6A;
+  background: #d89d6a;
 }
 
 li * {
@@ -25,7 +25,7 @@ li * {
 }
 
 .selected {
-  background: #A7E8BD;
+  background: #a7e8bd;
 }
 
 a {
@@ -44,24 +44,24 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 3rem; 
+  padding-left: 3rem;
   padding-right: 3rem;
 }
 
 #hero {
-  background-color: #D7FFAB;
+  background-color: #d7ffab;
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
 
-#hero>h1 {
+#hero > h1 {
   margin-bottom: 4rem;
 }
 
 button {
   font-size: 1.2rem;
   padding: 1rem 2rem;
-  background-color: #D89D6A;
+  background-color: #d89d6a;
   font-weight: bold;
   cursor: pointer;
 }
@@ -69,10 +69,10 @@ button {
 #menu {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #FCFF6C;
+  background-color: #fcff6c;
 }
 
-#menu>div {
+#menu > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
@@ -90,7 +90,7 @@ button {
 }
 
 #intro {
-  background-color: #FCFF6C;
+  background-color: #fcff6c;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -113,7 +113,7 @@ button {
 }
 
 #contact {
-  background: #FCFF6C;
+  background: #fcff6c;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
