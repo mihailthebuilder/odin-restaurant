@@ -1,7 +1,8 @@
-import './css/style.css'
-import {pageLoad} from './js/page-load.js'
-import {menuLoad} from './js/menu.js'
-import {contactLoad} from './js/contact.js'
+/* eslint-disable import/extensions */
+import './css/style.css';
+import { pageLoad } from './js/page-load.js';
+import { menuLoad } from './js/menu.js';
+import { contactLoad } from './js/contact.js';
 
 pageLoad();
 
@@ -10,7 +11,7 @@ pageLoad();
     document.getElementById('content').innerHTML = '';
 
     [...document.getElementsByClassName('link')].forEach(element => {element.className = 'link'});
-    
+
     element.classList.add('selected');
 
     switch(element.getAttribute('linkTo')) {
